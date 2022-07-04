@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Nba from './Nba/Nba';
+import Wuxia from './Wuxia/Wuxia';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import RoadTrip from './RoadTrip/RoadTrip';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Nba /> 
+    <Wuxia />
+    <RoadTrip />
   </React.StrictMode>
 );
 
