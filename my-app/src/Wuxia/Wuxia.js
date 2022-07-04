@@ -6,7 +6,7 @@ function wuxia() {
     <div className="wuxia">
       <h1>Reading Wuxia</h1>
       <img class="wuxiaLogo"src={img2} alt='wuxia logo' />
-
+      <p className='wuxiaDesc'>Wuxia, which literally means "martial heroes", is a genre of Chinese fiction concerning the adventures of martial artists in ancient China.</p>
     </div>
   );
 }
